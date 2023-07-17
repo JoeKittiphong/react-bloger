@@ -1,25 +1,31 @@
 .card{
     margin: 10px;
     padding: 5px;
-    width: 310px;
+    /* width: 310px; */
+}
+.card:hover{
+    transition: .5s;
+    transform: translateY(-10px);
 }
 .btn{
-    width: 300px;
-    height: 300px;
+    /* width: 300px; */
+    /* height: 300px; */
     margin: 10px;
     padding: 0;
     border-radius : 10px;
     overflow: hidden;
     border: none;
     border: 4px solid #ffffff;
+    background-color: #FFF;
     >a{
         text-decoration : none;
     }
 }
 .cover{
-    width: 300px;
-    height: 250px;
+    /* width: 300px; */
+    /* height: 250px; */
     overflow: hidden;
+    padding: 5px;
     >p{
         display: inline;
         >img{
@@ -29,11 +35,58 @@
     }
 }
 .title{
-    width: 300px;
+    /* width: 300px; */
     height: 50px;
 }
 
 .btn:hover{
-    border: 4px solid #2B2C30;
+    transition: .2s;
+    border: 4px solid #000000;
+    background-color: #000000;    
 }
 
+@media only screen and (min-width: 300px){
+    .card,
+    .btn{
+        width: 600px;
+        height: 500px;
+    }
+    .cover{
+        height: 400px;
+    }
+    .title{
+        height: 100px;
+    }
+}
+@media only screen and (min-width: 700px){
+    .card,
+    .btn{
+        width: 500px;
+        height: 400px;
+    }
+    .cover{
+        height: 350px;
+    }
+    .title{
+        height: 50px;
+    }
+}
+@media only screen and (min-width: 1100px){
+    .card,
+    .btn{
+        width: 420px;
+        height: 400px;
+    }
+    .cover{
+        height: 350px;
+    }
+    .title{
+        height: 50px;
+    }
+}
+@media only screen and (min-width: 1500px){
+    
+}
+@media only screen and (min-width: 1900px){
+    
+}
