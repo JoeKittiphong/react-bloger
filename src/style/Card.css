@@ -1,0 +1,39 @@
+.card{
+    margin: 10px;
+    padding: 5px;
+    width: 310px;
+}
+.btn{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    padding: 0;
+    border-radius : 10px;
+    overflow: hidden;
+    border: none;
+    border: 4px solid #ffffff;
+    >a{
+        text-decoration : none;
+    }
+}
+.cover{
+    width: 300px;
+    height: 250px;
+    overflow: hidden;
+    >p{
+        display: inline;
+        >img{
+            width: 100%;
+            object-position: center;
+        }
+    }
+}
+.title{
+    width: 300px;
+    height: 50px;
+}
+
+.btn:hover{
+    border: 4px solid #2B2C30;
+}
+
